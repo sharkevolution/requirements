@@ -23,6 +23,6 @@ dependencies:
     - ipysheet
     - jupyter_contrib_nbextensions
     - fileupload
-    - pip
+    - pip:
       - openpyxl
       - qgrid
