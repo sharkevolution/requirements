@@ -25,3 +25,4 @@ dependencies:
     - fileupload
     - openpyxl
     - qgrid
+    - pandas_ui
