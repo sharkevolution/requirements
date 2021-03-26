@@ -6,5 +6,8 @@ jupyter nbextension enable python-markdown/main
 jupyter nbextension install --user --py fileupload
 jupyter nbextension enable  --user --py fileupload
 
+jupyter nbextension enable — py qgrid — sys-prefix
+jupyter nbextension enable — py widgetsnbextension — sys-prefix
+
 # Notebooks w/ extensions that auto-run code must be "trusted" to work the first time
 jupyter trust index.ipynb
