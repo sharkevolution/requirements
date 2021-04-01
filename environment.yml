@@ -6,6 +6,7 @@ dependencies:
   - numpy
   - pip
   - pip:
+    - jupyter_contrib_nbextensions
     - nbgitpuller
     - sphinx-gallery
     - matplotlib
@@ -21,8 +22,9 @@ dependencies:
     - seaborn==0.10.1
     - six==1.15.0               # via cycler, python-dateutil
     - ipysheet
-    - jupyter_contrib_nbextensions
     - fileupload
     - openpyxl
-    - qgrid
-    - pandas_ui
+    - pandas
+    - pytz
+    - python-dateutil
+    - geocoder
