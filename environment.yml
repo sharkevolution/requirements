@@ -28,3 +28,5 @@ dependencies:
     - pytz
     - python-dateutil
     - geocoder
+    - ipyleaflet
+    
