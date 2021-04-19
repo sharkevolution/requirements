@@ -21,9 +21,9 @@ def create_download_link_excel(df, title = "Скачайте пример с а�
     return HTML(html)
 
 
-def start():
+def start(file_name):
     
-    with open("addr.test", "rb") as f:
+    with open(file_name, "rb") as f:
         text = f.read()
 
     excel_data = ExcelFile(io.BytesIO(text), engine='openpyxl')
