@@ -5,10 +5,6 @@ jupyter nbextension enable --py widgetsnbextension
 # Add the markdown
 jupyter nbextension enable python-markdown/main
 
-# Add the hide_code
-jupyter nbextension install --py hide_code
-jupyter nbextension enable --py hide_code
-
 # Add the fileupload module.
 jupyter nbextension install --user --py fileupload
 jupyter nbextension enable  --user --py fileupload
@@ -19,4 +15,4 @@ jupyter nbextension enable --py --sys-prefix ipyleaflet
 # Notebooks extensions that auto-run code must be "trusted" to work the first time
 jupyter trust index.ipynb
 jupyter trust matrix.ipynb
-jupyter prim.ipynb
+jupyter trust prim.ipynb
