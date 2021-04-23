@@ -31,3 +31,4 @@ dependencies:
     - ipyleaflet
     - tqdm
     - networkx
+    - hide_code
