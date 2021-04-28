@@ -29,6 +29,6 @@ dependencies:
     - pandas
     - geocoder
     - ipyleaflet
+    - ipyaggrid
     - tqdm
     - networkx
-    - hide_code
