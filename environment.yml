@@ -32,3 +32,4 @@ dependencies:
     - ipyaggrid
     - tqdm
     - networkx
+    - beautifulsoup4
